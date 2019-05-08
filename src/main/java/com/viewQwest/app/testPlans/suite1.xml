@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--parallel="methods"/"false"-->
+<suite name="Test OSP internet plan test floors" parallel="true" thread-count="10" verbose="10">
+    <!-- test name="TC01">
+        <classes>
+            <class name="com.viewQwest.app.scripts.OPS_TC_01_NewSubscriberCreationFloorPlan49"/>
+        </classes>
+    </test>
+    <test name="TC02">
+        <classes>
+            <class name="com.viewQwest.app.scripts.OPS_TC_02_NewSubscriberCreationFloorPlan39"/>
+        </classes>
+    </test>
+    <test name="TC03">
+        <classes>
+            <class name="com.viewQwest.app.scripts.OPS_TC_03_NewSubscriberCreationFloorPlan700"/>
+        </classes>
+    </test>
+    <test name="TC04">
+        <classes>
+            <class name="com.viewQwest.app.scripts.OPS_TC_04_NewSubscriberCreationFloorPlan450"/>
+        </classes>
+    </test>
+    <test name="TC05">
+        <classes>
+            <class name="com.viewQwest.app.scripts.OPS_TC_05_NewSubscriberCreationFloorPlan59"/>
+        </classes>
+    </test -->
+
+    <test name="TC01">
+        <classes>
+            <class name="com.viewQwest.app.scripts.NEW_OSP_PACKAGE_2GBPS"/>
+        </classes>
+    </test>
+    <test name="TC02">
+        <classes>
+            <class name="com.viewQwest.app.scripts.NEW_OSP_PACKAGE_1GBPS"/>
+        </classes>
+    </test>
+    <test name="TC03">
+        <classes>
+            <class name="com.viewQwest.app.scripts.NEW_OSP_PACKAGE_1GBPS_RAPTER"/>
+        </classes>
+    </test>
+
+</suite>
